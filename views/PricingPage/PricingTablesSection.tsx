@@ -7,37 +7,37 @@ import SectionTitle from 'components/SectionTitle';
 export default function PricingTablesSection() {
   return (
     <Wrapper>
-      <SectionTitle>Flexible pricing for agile teams</SectionTitle>
+      <SectionTitle>Os melhores planos para lojistas de todos os tamanhos</SectionTitle>
       <AutofitGrid>
         <PricingCard
-          title="free"
-          description="Give us a try for free"
-          benefits={['1 seat', '1 active project', 'Ulimited viewers', '10 blocks']}
+          title="Plano Basic"
+          description="Gratuito, o melhor para lojistas que estão começando"
+          benefits={['3 usuários', '50 produtos', '5 mil visualizações por mes', '10 blocks']}
         >
-          $0<span>/month</span>
+          R$0<span>/mês</span>
         </PricingCard>
         <PricingCard
-          title="Starter"
-          description="Best for individual desginers"
-          benefits={['1 seat', '3 active project', 'Ulimited viewers', '100 blocks', 'CSV Downloader', 'Password protection']}
+          title="Plano Growth"
+          description="Para lojistas que buscam aumentar as vendas digitais"
+          benefits={['8 usuários', '100 produtos', '15 mil visualizações por mes', '100 blocks', 'Gestão de franquias', 'Analise de dados precisa']}
           isOutlined
         >
-          $29<span>/month</span>
+          R$24<span>/mês</span>
         </PricingCard>
         <PricingCard
-          title="Premium"
-          description="Get your team together"
+          title="Plano corporate"
+          description="Grandes varejistas que querem uma grande expansão"
           benefits={[
-            '10 seat',
-            '10 active project',
-            'Ulimited viewers',
-            'Unlimited blocks',
-            'CSV Downloader',
+            'usuários ilimitados',
+            'produtos ilimitados',
+            'visualizações ilimitadas',
+            'Código-fonte aberto',
+            'Consultoria de marketing dedicada ao negócio',
             'Password protection',
             'Customization',
           ]}
         >
-          $79<span>/month</span>
+          <span>Pague o quanto usar</span>
         </PricingCard>
       </AutofitGrid>
     </Wrapper>
