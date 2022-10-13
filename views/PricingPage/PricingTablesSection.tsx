@@ -12,14 +12,14 @@ export default function PricingTablesSection() {
         <PricingCard
           title="Plano Basic"
           description="Gratuito, o melhor para lojistas que estão começando"
-          benefits={['3 usuários', '50 produtos', '5 mil visualizações por mes', '10 blocks']}
+          benefits={['3 usuários', '50 produtos', '5 mil visualizações por mes', 'Funcionalidades básicas']}
         >
           R$0<span>/mês</span>
         </PricingCard>
         <PricingCard
           title="Plano Growth"
           description="Para lojistas que buscam aumentar as vendas digitais"
-          benefits={['8 usuários', '100 produtos', '15 mil visualizações por mes', '100 blocks', 'Gestão de franquias', 'Analise de dados precisa']}
+          benefits={['8 usuários', '100 produtos', '15 mil visualizações por mes', 'Melhor gestão de conteúdo', 'Gestão de franquias', 'Analise de dados precisa']}
           isOutlined
         >
           R$24<span>/mês</span>
@@ -32,7 +32,7 @@ export default function PricingTablesSection() {
             'produtos ilimitados',
             'visualizações ilimitadas',
             'Código-fonte aberto',
-            'Consultoria de marketing dedicada ao negócio',
+            'Equipe de marketing exclusiva',
             'Password protection',
             'Customization',
           ]}
