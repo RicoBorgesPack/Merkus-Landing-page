@@ -10,38 +10,27 @@ type SingleFooterList = { title: string; items: FooterListItems };
 type FooterItems = SingleFooterList[];
 
 const footerItems: FooterItems = [
+  
   {
-    title: 'Company',
+    title: 'Sobre a Merkus',
     items: [
-      { title: 'Privacy Policy', href: '/privacy-policy' },
-      { title: 'Cookies Policy', href: '/cookies-policy' },
+      { title: 'Funcionalidades', href: '/features' },
     ],
   },
   {
-    title: 'Product',
+    title: 'Dados da empresa',
     items: [
-      { title: 'Features', href: '/features' },
-      { title: 'Something', href: '/something' },
-      { title: 'Something else', href: '/something-else' },
-      { title: 'And something else', href: '/and-something-else' },
+      { title: 'Contato', href: '/contact' },
+      { title: 'FAQ', href:""},
     ],
   },
   {
-    title: 'Knowledge',
+    title: 'Midias sociais',
     items: [
-      { title: 'Blog', href: '/blog' },
-      { title: 'Contact', href: '/contact' },
-      { title: 'FAQ', href: '/faq' },
-      { title: 'Help Center', href: '/help-center' },
-    ],
-  },
-  {
-    title: 'Something',
-    items: [
-      { title: 'Features2', href: '/features2' },
-      { title: 'Something2', href: '/something2' },
-      { title: 'Something else2', href: '/something-else2' },
-      { title: 'And something else2', href: '/and-something-else2' },
+      { title: 'Facebook', href: ' ' },
+      { title: 'Instagram', href: ' ' },
+      { title: 'Linkedin', href: '' },
+      { title: 'Whatsapp', href: '' },
     ],
   },
 ];
