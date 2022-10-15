@@ -12,6 +12,7 @@ import Container from './Container';
 import Drawer from './Drawer';
 import { HamburgerIcon } from './HamburgerIcon';
 
+
 const ColorSwitcher = dynamic(() => import('../components/ColorSwitcher'), { ssr: false });
 
 type NavbarProps = { items: NavItems };
@@ -66,6 +67,9 @@ export default function Navbar({ items }: NavbarProps) {
   return (
     <NavbarContainer hidden={isNavbarHidden} transparent={isTransparent}>
       <Content>
+        <NextLink href="/" passHref>
+          MERKUS
+        </NextLink>
         <NavItemList>
           {items.map((singleItem) => (
             <NavItem key={singleItem.href} {...singleItem} />
