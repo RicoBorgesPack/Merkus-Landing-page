@@ -13,21 +13,20 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>Lorem ipsum dolor sit amet</OverTitle>
-          <SectionTitle>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus delectus?</SectionTitle>
+          <OverTitle>Merkus oferece tudo de melhor a sua jola</OverTitle>
+          <SectionTitle>Somos uma solução completa, além de plataforma de ecommerce e CRM, possuimos uma integração lojas fisicas e site</SectionTitle>
           <Description>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda beatae accusamus deleniti nihil quas tempora numquam, vitae
-            culpa.
+            Ajudamos o lojsta a ter maior presença no meio digital e conectar seus canais de vendas fisicos e virtuais para ter uma visão mais ampla do negócio.
           </Description>
           <ButtonGroup>
             <NextLink href="#early-access" passHref>
               <Button>
-                Subscribe to the newsletter <span>&rarr;</span>
+                Se inscreva para testar nossa beta <span>&rarr;</span>
               </Button>
             </NextLink>
             <NextLink href="#whitepaper" passHref>
               <OutlinedButton transparent>
-                Features <span>&rarr;</span>
+                Funcionalidades <span>&rarr;</span>
               </OutlinedButton>
             </NextLink>
           </ButtonGroup>

@@ -7,11 +7,8 @@ import { EnvVars } from 'env';
 import { getAllPosts } from 'utils/postsFetcher';
 import Cta from 'views/HomePage/Cta';
 import Features from 'views/HomePage/Features';
-import FeaturesGallery from 'views/HomePage/FeaturesGallery';
 import Hero from 'views/HomePage/Hero';
-import Partners from 'views/HomePage/Partners';
 import ScrollableBlogPosts from 'views/HomePage/ScrollableBlogPosts';
-import Testimonials from 'views/HomePage/Testimonials';
 
 export default function Homepage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
@@ -27,19 +24,16 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
+          <BasicSection imageUrl="/demo-illustration-1.svg" title="A melhor solução para sua loja." overTitle="Um sistema integrado">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
+              Nossa plataforma além de entregar um ecommerce que atende suas necessidades, possuimos integrações com os melhores marketplaces, meios de pagamento, soluções de marketing e entrega.{' '}
+              <Link href="/help-center">Além disso, integramos todos os seus canais de venda, tanto o site quanto as midias sociais, marketplaces e as inumeras lojas fisicas que o varejista possuir
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+          <BasicSection imageUrl="/demo-illustration-2.svg" title="Além de produtos, oferecemos serviços." overTitle="Mais que uma consultoria" reversed>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+              Para lojistas grandes, possuimos consultorias para areas como Marketing digital,desenvolvimento e operações de TI, expansão de negócios  e melhoria de processos{' '}
+              <strong>Buscamos entender as dores e objetivos de clientes e com isso entregar o melhor resultado</strong>
             </p>
             <ul>
               <li>Professional point 1</li>
@@ -50,7 +44,6 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>
           <Cta />
-          <FeaturesGallery />
           <Features />
           <ScrollableBlogPosts posts={posts} />
         </DarkerBackgroundContainer>
