@@ -8,7 +8,6 @@ import { getAllPosts } from 'utils/postsFetcher';
 import Cta from 'views/HomePage/Cta';
 import Features from 'views/HomePage/Features';
 import Hero from 'views/HomePage/Hero';
-import ScrollableBlogPosts from 'views/HomePage/ScrollableBlogPosts';
 
 export default function Homepage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
