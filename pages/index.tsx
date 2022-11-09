@@ -23,15 +23,15 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="A melhor solução para sua loja." overTitle="Um sistema integrado">
+          <BasicSection imageUrl="/demo-illustration-1.svg" title="A melhor solução para sua franquia." overTitle="Um sistema integrado">
             <p>
-              Nossa plataforma além de entregar um ecommerce que atende suas necessidades, possuimos integrações com os melhores marketplaces, meios de pagamento, soluções de marketing e entrega.{' '}
-              <Link href="/help-center">Além disso, integramos todos os seus canais de venda, tanto o site quanto as midias sociais, marketplaces e as inumeras lojas fisicas que o varejista possuir</Link> 
+              Nossa plataforma além de entregar um ecommerce que atende suas necessidades e diversas integrações, ajudamos as franquias a se posicionar nas vendas online.{' '}
+              <Link href="/help-center">Nós integramos todos os seus canais de venda, tanto o site quanto as midias sociais, marketplaces e as inumeras lojas fisicas que o varejista possuir</Link> 
             </p>
           </BasicSection>
           <BasicSection imageUrl="/demo-illustration-2.svg" title="Além de produtos, possuimos serviços." overTitle="Mais que uma consultoria" reversed>
             <p>
-              Para lojistas grandes, possuimos consultorias para areas como Marketing digital,desenvolvimento e operações de TI, expansão de negócios  e melhoria de processos{' '}
+              Para franquias grandes, possuimos consultorias para areas como Marketing digital,desenvolvimento e operações de TI, expansão de negócios  e melhoria de processos{' '}
               <strong>Buscamos entender as dores e objetivos de clientes e com isso entregar o melhor resultado</strong>
             </p>
             

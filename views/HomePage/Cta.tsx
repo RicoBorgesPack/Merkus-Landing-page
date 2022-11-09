@@ -13,13 +13,13 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>Merkus oferece tudo de melhor a sua jola</OverTitle>
-          <SectionTitle>Somos uma solução completa, além de plataforma de ecommerce e CRM, possuimos uma integração lojas fisicas e site</SectionTitle>
+          <OverTitle>Merkus oferece tudo de melhor a sua loja</OverTitle>
+          <SectionTitle>Somos uma solução completa, além de plataforma de ecommerce,ajudamos sua franquia para a transformação digital</SectionTitle>
           <Description>
-            Ajudamos o lojsta a ter maior presença no meio digital e conectar seus canais de vendas fisicos e virtuais para ter uma visão mais ampla do negócio.
+            Ajudamos o lojsta a ter maior presença digital conectando seus canais de vendas fisicos e virtuais.
           </Description>
           <ButtonGroup>
-            <NextLink href="#early-access" passHref>
+            <NextLink href="#https://forms.gle/tyoE6q3pCaqvjDMU6" passHref>
               <Button>
                 Se inscreva para testar nossa beta <span>&rarr;</span>
               </Button>

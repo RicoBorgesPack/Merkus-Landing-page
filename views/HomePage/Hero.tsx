@@ -14,19 +14,19 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>A plataforma de ecommerce com melhor qualidade</CustomOverTitle>
-        <Heading>Impulsione sua loja com Merkus</Heading>
+        <CustomOverTitle>Mais que uma plataforma de Ecommerce</CustomOverTitle>
+        <Heading>Impulsione sua franquia com Merkus</Heading>
         <Description>
-          Entregamos ao nossos lojistas uma plataforma de ecommerce 
-          que é intregada a loja fisica e diversos outros canais de venda
+          Entregamos aos nosso lojistas uma plataforma de ecommerce 
+          que direciona as vendas onlines para as franquias da marca
         </Description>
         <CustomButtonGroup>
-          <Button onClick={() => setIsModalOpened(true)}>
+          <Button href="https://forms.gle/tyoE6q3pCaqvjDMU6">
             Ficou interessado?? responda este form <span>&rarr;</span>
           </Button>
           <NextLink href="#whitepaper" passHref>
             <Button transparent>
-              Features <span>&rarr;</span>
+              funcionalidades <span>&rarr;</span>
             </Button>
           </NextLink>
         </CustomButtonGroup>

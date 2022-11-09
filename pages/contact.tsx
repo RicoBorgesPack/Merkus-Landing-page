@@ -6,7 +6,7 @@ import InformationSection from 'views/ContactPage/InformationSection';
 
 export default function ContactPage() {
   return (
-    <Page title="Contact" description="Minim sint aliquip nostrud excepteur cupidatat amet do laborum exercitation cupidatat ea proident.">
+    <Page title="Contact" description="Ficou interessado na Merkus? entre em contato com a gente.">
       <ContactContainer>
         <InformationSection />
         <FormSection />
