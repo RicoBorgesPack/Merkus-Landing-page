@@ -14,7 +14,7 @@ export default function Cta() {
       <Container>
         <Stack>
           <OverTitle>Merkus oferece tudo de melhor a sua loja</OverTitle>
-          <SectionTitle>Somos uma solução completa, além de plataforma de ecommerce,ajudamos sua franquia para a transformação digital</SectionTitle>
+          <SectionTitle>Somos mais do que uma plataforma, ajudamos sua franquia a vender online</SectionTitle>
           <Description>
             Ajudamos o lojsta a ter maior presença digital conectando seus canais de vendas fisicos e virtuais.
           </Description>

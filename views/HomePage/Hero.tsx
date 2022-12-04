@@ -17,8 +17,7 @@ export default function Hero() {
         <CustomOverTitle>Mais que uma plataforma de Ecommerce</CustomOverTitle>
         <Heading>Impulsione sua franquia com Merkus</Heading>
         <Description>
-          Entregamos aos nosso lojistas uma plataforma de ecommerce 
-          que direciona as vendas onlines para as franquias da marca
+         Ajudamos sua franquia a vender online
         </Description>
         <CustomButtonGroup>
           <Button href="https://forms.gle/tyoE6q3pCaqvjDMU6">

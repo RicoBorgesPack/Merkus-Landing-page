@@ -24,7 +24,17 @@ export default function PricingTablesSection() {
         >
           R$24<span>/mês</span>
         </PricingCard>
-        <PricingCard
+      </AutofitGrid>
+    </Wrapper>
+  );
+}
+
+const Wrapper = styled.div`
+  & > *:not(:first-child) {
+    margin-top: 8rem;
+  }
+`;
+/*<PricingCard
           title="Plano corporate"
           description="Grandes varejistas que querem uma grande expansão"
           benefits={[
@@ -38,14 +48,4 @@ export default function PricingTablesSection() {
           ]}
         >
           <span>Pague o quanto usar</span>
-        </PricingCard>
-      </AutofitGrid>
-    </Wrapper>
-  );
-}
-
-const Wrapper = styled.div`
-  & > *:not(:first-child) {
-    margin-top: 8rem;
-  }
-`;
+        </PricingCard>*/

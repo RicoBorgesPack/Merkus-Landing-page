@@ -29,13 +29,6 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
               <Link href="/help-center">Nós integramos todos os seus canais de venda, tanto o site quanto as midias sociais, marketplaces e as inumeras lojas fisicas que o varejista possuir</Link> 
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Além de produtos, possuimos serviços." overTitle="Mais que uma consultoria" reversed>
-            <p>
-              Para franquias grandes, possuimos consultorias para areas como Marketing digital,desenvolvimento e operações de TI, expansão de negócios  e melhoria de processos{' '}
-              <strong>Buscamos entender as dores e objetivos de clientes e com isso entregar o melhor resultado</strong>
-            </p>
-            
-          </BasicSection>
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>
           <Cta />
@@ -79,3 +72,10 @@ export async function getStaticProps() {
     },
   };
 }
+/*<BasicSection imageUrl="/demo-illustration-2.svg" title="Além de produtos, possuimos serviços." overTitle="Mais que uma consultoria" reversed>
+<p>
+Para franquias grandes, possuimos consultorias para areas como Marketing digital,desenvolvimento e operações de TI, expansão de negócios  e melhoria de processos{' '}
+<strong>Buscamos entender as dores e objetivos de clientes e com isso entregar o melhor resultado</strong>
+</p>
+
+</BasicSection>*/
